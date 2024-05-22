@@ -1,0 +1,464 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: -10px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.activee{
+    background-color: #deb887;
+    color: #fff;
+}
+ul ,li a{
+    color: black;
+    text-decoration: none;
+}
+
+ul,li{
+    display: flex;
+    text-decoration: none;
+    margin: auto;
+}
+.nav-1{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.6rem 1.3rem;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+ul{
+    margin-right: 2rem;
+}
+ul :hover{
+    background-color: #deb887;
+    color: #fff;
+    border-radius: 6px;
+}
+.dropdown {
+
+    position: relative;
+    border-radius: 3px;
+
+}
+
+.dropdown .nav-1 {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.6rem 1.3rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    width: calc(100% + 3rem);
+    background-color: #fff;
+}
+
+.sub-link {
+    display: none;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #000;
+    padding: 0.6rem 1.5rem;
+
+}
+
+.dropdown:hover .sub-link {
+    display: block;
+}
+
+.dropdown .nav-1:hover,
+.sub-link:hover {
+    background-color: #deb887;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.dropdown i {
+    padding: 0px;
+    margin: 0;
+}
+.logo{
+    height: 50px;
+    width: 150px;
+}
+.container{
+    width: 100%;
+    position: relative;
+}
+.container img{
+    width: 100%;
+    height: 650px;
+}
+.text{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    padding-left: 450px;
+    margin-top: -400px;
+    text-shadow: 100px black;
+}
+.btn a{ 
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 15px 50px; 
+    border: 2px solid #deb887; 
+    font-size: 20px;
+}
+.btn :hover{
+    background-color: #deb887;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.mid{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5% 4%;
+}
+
+.img-1{
+    max-height: 325px;
+    box-shadow: -12px -12px #deb887;
+}
+
+.story{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 55%;
+    font-size: 20px;
+}
+.btn1 a{ 
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 15px 50px; 
+    border: 2px solid #deb887; 
+    font-size: 20px;
+}
+
+.btn1 :hover{
+    background-color: #deb887;
+    color: black;
+    border-radius: 4px;
+}
+.quote-1{
+    background-image: linear-gradient(0deg,rgba(1,1,1,0.3),rgba(1,1,1,0.6)), url(Bg_5.jpg);
+    height: 19rem;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: relative;
+    background-position: center;
+    top: 0px;
+    text-align: center;
+}
+
+.quote{
+    color: #fff;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 6rem;
+}
+.quote-2{
+    color: #fff;
+    padding-left: 20rem;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.menu-section{
+    text-align: center;
+    padding: 2rem;
+}
+.heading{
+    text-align: center;
+    padding:0px;
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem;
+    font-size: 2rem;
+}
+.subheading{
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu-nav{
+    width: 34%;
+    margin-inline: auto;
+}
+.menu-nav ul{
+    margin-inline: auto;
+}
+
+.menu-nav{
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    margin: auto;
+    margin-inline: auto;
+}
+.menu-nav li{
+    margin: 1rem;
+    padding: 0px;
+    background-color: #f5f5f5;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-items{
+    padding: 1.5% 6%;
+}
+.drink1{
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Drinks_1.jpg);
+}
+.drink2{
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Drinks_2.jpg);
+}
+.drink3{
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Drinks_3.jpg);
+}
+
+.lunch1 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_1.jpg);
+}
+
+.lunch2 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_2.jpg);
+}
+
+.lunch3 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_3.jpg);
+}
+.dinner1 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Dinner_1.jpg);
+}
+
+.dinner2 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Dinner_2.jpg);
+}
+
+.dinner3 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Dinner_3.jpg);
+}
+.items {
+    display: inline-block;
+    margin: 1.7rem 1rem;
+    background-size: cover;
+}
+.text-1{
+    color: #fff;
+    padding: 0 0.8rem 0 0.6rem;
+}
+.item-heading {
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 2rem 1rem 1rem 2rem;
+}
+.item-passege {
+    border-bottom: 2px dotted black;
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5rem 2rem 2rem 2rem;
+    padding-bottom: 2.5rem;
+    text-align: left;
+}
+.price {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 0.5rem 2rem 1rem 0.8rem;
+}
+.active{
+    background-color: #deb887;
+}
+
+
+#gallery-section-1 {
+    text-align: center;
+}
+
+.gallery-1 {
+    padding: 1.5% 6%;
+}
+
+.gallery-img-1 {
+    height: 350px;
+    width: 250px;
+    margin: 1.5rem 1rem;
+}
+
+.gallery-img-1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#customer-section {
+    text-align: center;
+    padding: 2.5rem 2rem 3rem 2rem;
+}
+
+.customer-img {
+    
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid #e4e4e4;
+    padding: 0.4rem;
+}
+
+.customer-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: #deb887;
+}
+
+.customer-subheading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.customer-review {
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2rem;
+    line-height: 25px;
+}
+
+.contact-info {
+    clear: both;
+    margin: auto;
+    background-color: #d0a772;
+    color: #fff;
+
+}
+
+.contact {
+    display: inline-block;
+    width: 32%;
+    padding: 2rem 0;
+    text-align: center;
+
+}
+
+.contact-details {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.fas {
+    font-size: 2.5rem;
+    margin: 0 1.5rem;
+}
+
+.footer {
+    display: inline-flex;
+    overflow: hidden;
+    height: 22rem;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(bg_footer.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 3rem;
+
+}
+
+.footer-elements {
+    max-height: 200px;
+    width: 20%;
+    margin: 1rem 2rem;
+    color: #fff;
+    margin-bottom: 10%;
+}
+
+.footer-heading {
+    border-bottom: 2px dotted rgba(207, 166, 113, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+}
+
+.footer-description {
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    line-height: 25px;
+}
+
+.email {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    font-size: 1rem;
+    line-height: 25px;
+    padding: 0.8rem;
+    width: 100%;
+
+}
+
+.subscribe {
+    background-color: #d0a772;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    line-height: 25px;
+    width: 100%;
+}
+
+.subscribe:hover {
+    background-color: #000;
+
+}
+
+.social {
+    margin-top: 2rem;
+}
+
+.social a {
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+.copy-right {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 3rem;
+    text-align: center;
+}
